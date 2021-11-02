@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 
   line-height: 1.7;
-  margin: 1em 0 15px;
+  margin: 1em 0 9px;
   padding: 0;
 
   @include mobile {
@@ -108,9 +108,55 @@ strong, b {
 
 img {
   max-width: 100%;
+  border-radius: 8px;
+  float: left;
+  margin-right: 15px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
 // Fixes images in popup boxes from Google Translate
+.submission_info {
+  color: $gray;
+  font-size: 16px;
+  @include mobile {
+    font-size: 14px;
+  }
+}
+
+.authors {
+  font-size: 16px;
+  @include mobile {
+    font-size: 14px;
+  }
+}
+
+.paper_title {
+  font-size: 22px;
+  margin-bottom: 10px;
+  // color: $gray;
+  @include mobile {
+    font-size: 20px;
+  }
+}
+
+
+.outer {
+  // background-color: #ccc;
+  margin: 0 0 40px 0;
+  overflow: auto;
+}
+
+.float {
+  width: 20%;
+  @include mobile {
+    width: 30%;
+  }
+}
+
+.portfolio_text {
+  overflow: auto;
+}
+
 .gmnoprint img {
   max-width: none;
 }
@@ -151,7 +197,7 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+  margin-bottom: 15px;
 }
 
 .masthead {
