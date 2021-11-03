@@ -118,15 +118,11 @@ img {
 .icon img {
   // max-width: 100%;
   border-radius: 0px;
-  float: right;
-  margin-top: -5px;
-  margin-bottom: -5px;
-  display: block;
-  margin-right: 7px;
+  float: left;
+  margin: 5px 5px 5px 5px;
   box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 0 0px 0px 0 rgba(0, 0, 0, 0);
   @include mobile {
     max-width: 25%;
-    margin-top: 0px;
     //float: left;
     //margin-top: -20px;
   }
