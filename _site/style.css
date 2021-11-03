@@ -124,6 +124,7 @@ a {
 
 a:hover, a:active {
   color: #4183C4;
+  text-decoration: underline;
 }
 
 ul, ol {
@@ -161,6 +162,19 @@ img {
   float: left;
   margin-right: 15px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.icon img {
+  border-radius: 0px;
+  float: right;
+  margin-right: 5px;
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 0 0px 0px 0 rgba(0, 0, 0, 0);
+}
+
+@media screen and (max-width: 640px) {
+  .icon img {
+    max-width: 15%;
+  }
 }
 
 .submission_info {
@@ -255,25 +269,11 @@ img {
   border-bottom: 1px solid #eee;
 }
 
-@media screen and (max-width: 640px) {
-  .masthead {
-    text-align: center;
-  }
-}
-
 .site-avatar {
   float: left;
   width: 70px;
   height: 70px;
   margin-right: 15px;
-}
-
-@media screen and (max-width: 640px) {
-  .site-avatar {
-    float: none;
-    display: block;
-    margin: 0 auto;
-  }
 }
 
 .site-avatar img {
@@ -282,14 +282,6 @@ img {
 
 .site-info {
   float: left;
-}
-
-@media screen and (max-width: 640px) {
-  .site-info {
-    float: none;
-    display: block;
-    margin: 0 auto;
-  }
 }
 
 .site-name {
@@ -310,7 +302,7 @@ img {
 
 @media screen and (max-width: 640px) {
   .site-description {
-    margin: 3px 0;
+    line-height: 1.8;
   }
 }
 
@@ -319,15 +311,6 @@ nav {
   margin-top: 23px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
-}
-
-@media screen and (max-width: 640px) {
-  nav {
-    float: none;
-    margin-top: 9px;
-    display: block;
-    font-size: 16px;
-  }
 }
 
 nav a {
