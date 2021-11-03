@@ -123,6 +123,7 @@ img {
   box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 0 0px 0px 0 rgba(0, 0, 0, 0);
   @include mobile {
     max-width: 15%;
+    float: left;
   }
 }
 
