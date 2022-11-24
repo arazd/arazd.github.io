@@ -157,7 +157,7 @@ strong, b {
   font-weight: bold;
 }
 
-img {
+.large img {
   max-width: 100%;
   border-radius: 8px;
   float: left;
