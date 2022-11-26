@@ -114,8 +114,24 @@ More details in my  <a href="https://arazd.github.io/CV.pdf">CV</a>.
 </div>
 
 <h2 id="Papers">Research</h2>
-I am interested in developing algorithms that can learn meaningful representations from the real-world data,
-while being resistant to forgetting and inherent data noise.
+I am interested in developing robust algorithms that can succeed in solving tasks in "real-world" setting,
+including learning under limited labels, data distribution shift and on multiple tasks.
+<!-- that can learn meaningful representations from the real-world data,
+while being resistant to forgetting and inherent data noise. -->
+The key topics I am currently focusing on are:
+<ul>
+  <li> <strong>Efficiency and scalability</strong>: how can we make deep learning models more efficient?
+    I am particularly interested in parameter-efficient learning and training with limited labels
+    (<a href="https://openreview.net/pdf?id=UJTgQBc91_">Progressive Prompts</a>, <a href="#PIFiA">PIFiA</a>).
+  <!-- <li> <strong>Generalist models</strong>: most existing approaches excel in learning a single task, yet are not so effective in generalizing for future tasks or multiple datasets.
+    How can we build models that can generalize to never-before-seen data and tasks?
+    (<a href="">Representation Consistency Targets</a>, <a href="">Multi-defect microscopy image restoration</a>)-->
+  <li> <strong>Lifelong learning</strong>: humans can learn on a variety of tasks while gaining experience and avoiding forgetting.
+    My goal is to develop effective lifelong learning methods inspired by the core principles of human thinking
+    (<a href="https://openreview.net/pdf?id=UJTgQBc91_">Progressive Prompts</a>, <a href="https://arxiv.org/pdf/2205.11603.pdf">Representation Consistency Targets</a>).
+
+</ul>
+Some of my works:
 <br>
 <br>
 <!--
@@ -138,7 +154,7 @@ while being resistant to forgetting and inherent data noise.
           Preprint, 2022
         </div>
         <div class="authors">
-          <a href="https://openreview.net/forum?id=UJTgQBc91_">Paper</a>&emsp;
+          <a href="https://openreview.net/pdf?id=UJTgQBc91_">Paper</a>&emsp;
         </div>
       </div>
 </div>
@@ -160,7 +176,7 @@ while being resistant to forgetting and inherent data noise.
 <br><br>
 <div>
       <img class="float" src="./images/pifia.png" alt="PIFiA illustration">
-      <div class="portfolio_text">
+      <div class="portfolio_text" id="PIFiA">
         <div class="paper_title">PIFiA: a self-supervised approach for discovery of protein functional
           fingerprints from single-cell imaging data</div>
         <div class="authors"> <strong>A Razdaibiedina</strong>, A Brechalov, H Friesen, M Mattiazzi-Usaj, HG Suresh, K Wang, C Boone, J Ba, B Andrews
@@ -241,6 +257,12 @@ while being resistant to forgetting and inherent data noise.
 <h2>Talks</h2>
 
 <ul>
+  <li>Talk at FAIR: continual learning for language models without forgetting
+    <br><div class="authors">Facebook AI Research, Sep 2022
+      <!-- <span class="authors"><a href="https://www.youtube.com/watch?v=lqcyrCazgc8">video</a></span></div> -->
+  </li>
+  <br>
+
   <li>TorBUG talk: PIFiA, a self-supervised approach for protein functional discovery
     <br><div class="authors">Toronto Bioinformatics User Group, Mar 2022 <span class="authors"><a href="https://www.youtube.com/watch?v=lqcyrCazgc8">video</a></span></div>
   </li>
